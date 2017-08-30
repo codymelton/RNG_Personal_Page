@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start -p 8000"
   },
   "dependencies": {
     "express": "^4.15.4",
