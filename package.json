@@ -1,15 +1,21 @@
 {
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node server.js -p 3005",
     "build": "next build",
     "start": "next start -p 8000"
   },
   "dependencies": {
+    "async": "^2.5.0",
     "express": "^4.15.4",
     "isomorphic-unfetch": "^2.0.0",
+    "material-ui": "^0.19.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.10",
     "next": "^3.0.6",
+    "promise": "^8.0.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
     "react-markdown": "^2.5.0"
   }
 }
